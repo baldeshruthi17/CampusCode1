@@ -393,6 +393,15 @@ function DesktopLogin() {
       </svg>
 
       <section className="relative z-10 grid min-h-screen grid-cols-[minmax(650px,1fr)_530px] gap-[clamp(54px,6vw,110px)] px-[clamp(70px,8vw,122px)] py-1">
+        <div className="absolute right-10 top-8 z-20">
+  <button
+    type="button"
+    onClick={() => window.location.href = "/"}
+    className="font-mono text-[10px] tracking-wider text-[#777777] hover:text-[#7665ff]"
+  >
+    ← BACK TO HOME
+  </button>
+</div>
         <div className="flex min-h-[680px] flex-col justify-center py-16">
           <div className="max-w-[550px]">
             <div className="flex items-center justify-between font-mono text-[8px] tracking-[0.14em] text-[#92928c]">
