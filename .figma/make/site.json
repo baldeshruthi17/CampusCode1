@@ -1,0 +1,10 @@
+{
+  "description": "CampusCode lets students register or sign in to access a personalized dashboard, with persistent demo sessions and convenient sample credentials.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
